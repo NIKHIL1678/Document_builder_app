@@ -1,0 +1,26 @@
+# Ajaia: Project Workspace Initiative
+
+**Document ID:** SYS-DOC-001
+**Classification:** Internal Draft
+**Status:** High Priority
+
+## 1. Core Objective
+Ajaia is exploring next-generation internal productivity tools designed to accelerate team collaboration on shared technical work. Our primary mandate is to move beyond legacy document editors and build a lightweight, AI-native collaborative workspace that emphasizes speed, semantic search, and data density.
+
+## 2. Strategic Constraints
+To maintain high performance and low latency, the engineering team must adhere to the following constraints during the build phase:
+* Focus on depth in core features over shallow coverage of many features.
+* Avoid scope creep; do not attempt full feature parity with legacy enterprise monoliths.
+* Maintain a strict, functional system-terminal aesthetic to maximize information density.
+
+## 3. Implementation Priorities
+The current engineering sprint focuses on the following technical milestones:
+1. Robust file ingestion (parsing strictly .txt and .md payloads client-side).
+2. Secure document state management and basic access distribution.
+3. Client-side rich text manipulation (bold, headings, structural lists).
+4. Neural engine integration for automated semantic document summaries and tagging.
+
+## 4. Technical Stack Notes
+The frontend infrastructure relies on React and modern CSS paradigms. State management for document buffers must be optimized to prevent memory leaks during large payload injections.
+
+*End of Briefing*
